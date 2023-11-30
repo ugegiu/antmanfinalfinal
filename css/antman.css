@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{ font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+body{
+    background: #bdc3c7;
+    margin: 0;
+
+}
+
+main{
+
+    width: 1280px;
+   
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0px;
+    background-image: url(../imagenesant/antmansi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+section{
+width: 1280px;
+height: 700px;
+background-color:transparent;
+}
+
+
+
+.section-index{
+/*background-image:url(../imagenesant/antmansi.jpg);*/
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white ;
+
+}
+
+header{
+    display: flex;
+    width: 1280px;
+    height: 73px;
+    background-color: #eb2f06;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+
+    
+}
+
+.titulo{
+    font-size: 70px;
+    position: absolute;
+    left: 12%;
+    top: 29%;
+    color: red;
+
+}
+
+.titulo2{
+    font-size: 25px;
+    position: absolute;
+    left: 14%;
+    top: 40%;
+    color: black ;
+
+}
+
+
+.antmanlogo{
+    display: flex;
+    height: 70px;
+    margin-right: 20px;
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+    max-width: 992px;
+}
+
+nav a:hover{
+    color: black;
+
+
+
+}
+#article1 .titulo2{
+    position: static;
+    width: fit-content;
+    background: #fff;
+}
+footer{
+    margin-top: auto;
+    display: flex;
+    width: 1280px;
+    height: 55px;
+    background-color: #eb2f06;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    
+
+
+}
+.nombrealumno{
+    margin: 0 auto;
+}
+footer img{
+    max-width: 60px;
+    margin: 0 .5rem;
+}
+.nombre-alumno{
+    font-size: 20px;
+    color: #fff;
+}
+.div{
+    background:#eb2f06 ;
+    
+}
+
+.marvellogo{
+    display: flex;
+   
+    margin-right: 10px;
+
+}
+
+.uces{
+    display: flex;
+   margin-left: 10px;
+   /*position: absolute;
+   left: 6% ;
+   top: 2%;*/
+}
+
+
+
+.disney{
+
+    display: flex;
+    
+    margin-right: 10px;
+/*position: absolute;
+    left: 340%;
+    top: -20%;*/
+}
+.disney img{
+    width: 120px;
+}
+
+h1{
+    font-size: 30px;
+    position: relative;
+    left: -1%;
+    top: -1300%;
+    color: black ;
+}
+
+
+h2{
+    font-size: 25px;
+    position: relative;
+    top: 30%;
+    color:  white;
+}
+
+
+
+
+
+
+h3{
+    font-size: 30px;
+   /* position: relative;
+    left: 155%;
+    top: 10%;*/
+}
+
+
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    main{
+        width: auto;
+    }
+    main header{
+        width: auto;
+    }
+    header h2{
+        position: static;
+    }
+    header a{
+        width: 50%;
+    }
+    header .nombre-pelicula{
+        font-size: 14px;
+    align-items: center;
+    display: flex;
+    }
+    nav ul a{
+        font-size: 12px;
+    }
+    .section-index{
+        padding-top: 5rem;
+        background-image: url(../imagenesant/antmansi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    }
+    #article1{
+        text-align: center;
+    }
+    #article1 .titulo{
+        position: static!important;
+    }
+     #article1 h4{
+        margin: auto;
+    }
+    footer{
+        width: auto;
+        height: auto;
+    }
+    footer img{
+        max-width: 100%;
+    }
+    footer .marvellogo{
+        width: 80px;
+        height: auto;
+    }
+    .uces{
+        position: static;
+        height: auto;
+    }
+    .nombre-alumno{
+        position: static;
+    }
+    .disney{
+        height: auto;
+        position: static;
+    }
+    .disney img{
+        width: 70px;
+    }
+
+}
+
+
+/* MEDIUM (tablets, 768px and up)/ */
+@media (min-width: 768px) and (max-width: 991px) {
+    main{
+        width: auto;
+    }
+    main header{
+        width: auto;
+    }
+    header h2{
+        position: static;
+    }
+    header .nombre-pelicula{
+        font-size: 14px;
+    align-items: center;
+    display: flex;
+    }
+    nav ul a{
+        font-size: 12px;
+    }
+    .section-index{
+        padding-top: 5rem;
+        background-image: url(../imagenesant/antmansi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    }
+    #article1{
+        text-align: center;
+    }
+    #article1 .titulo{
+        position: static!important;
+    }
+     #article1 h4{
+        margin: auto;
+    }
+    footer{
+        width: auto;
+        height: auto;
+    }
+    footer img{
+        max-width: 100%;
+    }
+    footer .marvellogo{
+        width: 80px;
+        height: auto;
+    }
+    .uces{
+        position: static;
+        height: auto;
+    }
+    .nombre-alumno{
+        position: static;
+    }
+    .disney{
+        height: auto;
+        position: static;
+    }
+    .disney img{
+        width: 70px;
+    }
+
+}
+/* LARGE (desktops, 992px and up)/ */
+@media (min-width: 992px) and (max-width: 1200px) {
+    main{
+        width: auto;
+    }
+    main header{
+        width: auto;
+    }
+    .section-index{
+        padding-top: 5rem;
+        background-image: url(../imagenesant/antmansi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    }
+        footer{
+        width: auto;
+        height: auto;
+    }
+    #article1{
+        margin-left: 1rem;
+    }   
+    .titulo{
+        position: static;
+        left: 1%;
+    }
+    .titulo2{
+        left: 2%;
+    }
+}
+
+/* X-LARGE (desktops, 1200px and up)/ */
+@media (min-width: 1280px) {
+    main{
+        max-width: 1280px;
+
+    }
+    main header{
+        max-width: 1280px;
+    }
+    .section-index{
+        padding-top: 5rem;
+        
+    max-width: 1280px;
+    }
+        footer{
+        max-width: 1280px;
+        height: auto;
+    }
+    #article1{
+        margin-left: 4rem;
+    }
+    #article1 h1, #article1 .titulo2{
+        position: static;
+    }
+}
+
+
+
+@media (min-width: 1440px){
+    main{
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 1200px;
+
+    }
+}

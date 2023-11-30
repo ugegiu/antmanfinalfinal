@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{ font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.encabezadopersonajes{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 24px;
+    padding: 1rem;
+    color: #eb2f06;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+
+body{
+    margin: 0;
+    background: #bdc3c7;
+    padding: 0 2rem;
+}
+.nombre-pelicula{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: #A89F9F;
+
+    max-width: 1280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0px;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white ;
+
+}
+
+header{
+    display: flex;
+    width: auto;
+    height: 73px;
+    background-color: #eb2f06;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+
+    
+}
+
+.antmanlogo{
+    display: flex;
+    height: 70px;
+    margin-right: 10px;
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: black;
+
+}
+
+footer{
+    margin-top: 6rem;
+    display: flex;
+    width: auto;
+    background-color: #eb2f06;
+    align-items: center;
+    padding: 3px;
+
+}
+footer img{
+    max-width: 60px;
+    margin: 0 .5rem;
+}
+.nombre-alumno{
+    font-size: 20px;
+    color: #fff;
+}
+.marvellogo{
+    max-width: 120px;
+}
+
+.nombrealumno
+{
+    margin: 0 auto;
+}
+
+.galeria{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.galeria .actor {
+    text-align: center;
+}
+.galeria .actor h4{
+    margin-bottom: 2rem;
+}
+.galeria .actor img{
+    border-radius: 100%;
+    box-shadow: 0px 5px 15px 1px #000;
+    display: block;
+    transition: all .3s ease;
+}
+.galeria .actor img:hover{
+   transform: scale(1.1);
+
+}
+
+.disney img{
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+h4{
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    body{
+        padding:0;
+    }
+    header .nombre-pelicula{
+        font-size: 14px;
+    }
+    nav ul a{
+        font-size: 12px;
+    }
+    header a{
+        width: 50%;
+    }
+    .galeria{
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria .actor{
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .nombre-alumno{
+        text-align: center;
+    }
+}
+
+
+/* MEDIUM (tablets, 768px and up)/ */
+@media (min-width: 768px) and (max-width: 991px){
+    header .nombre-pelicula{
+        font-size: 18px;
+    }
+   
+    nav ul a{
+        font-size: 14px;
+    }
+    .galeria{
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria .actor{
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .nombre-alumno{
+        text-align: center;
+    }
+}
+
+/* LARGE (desktops, 992px and up)/ */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .galeria{
+        flex-wrap: wrap;
+    }
+}
+
+/* X-LARGE (desktops, 1200px and up)/ */
+@media (min-width: 1280px) {
+    main{
+        max-width: 1280px;
+    }
+   
+}
+
+/* X-LARGE (desktops, 1200px and up)/ */
+@media (min-width: 1440px) {
+    main{
+        min-height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 1280px;
+    }
+    .galeria{
+        margin: auto 0;
+    }
+}
